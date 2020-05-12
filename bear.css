@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #d23669;
+  --tag-text-color: #f0f0f0;
+  --tag-background: #a8b0b2;
+}
+
+body {
+    font-size: 14px;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* Sidebar */
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #292c2e;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    font-weight: normal;
+    color: #bfbfc0;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper {
+    padding: 8px 0px !important;
+    color: #bfbfc0;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .flex-h-box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #bfbfc0;
+}
+
+/* Text Block */
+.rm-block-text {
+    max-width: none;
+}
+
+/* Link */
+.rm-block-text a,
+.rm-page-ref-link-color,
+.rm-alias.rm-alias-external {
+    color: var(--primary-color);
+}
+
+/* Bullet */
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: var(--primary-color);
+}
+
+.rm-page-ref-tag {
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 2px 8px;
+    color: var(--tag-text-color);
+    background-color: var(--tag-background);
+    border-radius: 10px;
+}
+
+.rm-page-ref:hover {
+    text-decoration: none;
+}
+
+/* Checkbox */
+.check-container input:checked ~ .checkmark {
+    background-color: var(--primary-color);
+}
