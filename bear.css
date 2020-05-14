@@ -44,7 +44,7 @@ body {
 }
 
 /* Link */
-.rm-block-text a,
+a,
 .rm-page-ref-link-color,
 .rm-alias.rm-alias-external {
     color: var(--primary-color);
